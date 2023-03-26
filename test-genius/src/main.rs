@@ -1,12 +1,10 @@
-use ferris_says::say; // from the previous step
-use std::io::{stdout, BufWriter};
+use std::io::Write;
+
 
 fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow Rustaceans!");
-    let width = message.chars().count();
-
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
+    // Create a new test file
+    let mut file = std::fs::File::create("samples/ProfileMenu.test.tsx").expect("create failed");
+    file.write_all("Hello World".as_bytes()).expect("write failed");
+    file.write_all("\nTutorialsPoint".as_bytes()).expect("write failed");
 }
     

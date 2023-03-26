@@ -2,7 +2,7 @@
 
 Easy:
 
-[] Create a new colocated test file
+[x] Create a new colocated test file
 [] Name the new test file after the component
 [] Import testing library
 [] Import tested component
