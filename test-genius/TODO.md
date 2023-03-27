@@ -3,16 +3,16 @@
 Easy:
 
 [x] Create a new colocated test file
-[] Name the new test file after the component
+[] Name the new test file after the function
 [] Import testing library
-[] Import tested component
-[] Import hooks used by the component
-[] Name a test suite after the target component
+[] Import tested function
+[] Import hooks used by the function
+[] Name a test suite after the target function
 
 Medium:
 
 [] Set mock implementations in beforeAll
-[] Mock all hooks used by the test
+[] Mock dependencies used by the test
 [] Import userEvent if needed
 
 Hard:
