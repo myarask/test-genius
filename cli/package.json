@@ -1,0 +1,25 @@
+{
+  "name": "test-genius",
+  "version": "0.0.1",
+  "description": "A test generator for JS/TS application code",
+  "main": "index.js",
+  "bin": {
+    "tgen": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myarask/test-genius.git"
+  },
+  "keywords": [
+    "test",
+    "generator",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Mark Yaraskavitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myarask/test-genius/issues"
+  },
+  "homepage": "https://github.com/myarask/test-genius#readme"
+}

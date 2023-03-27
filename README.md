@@ -13,10 +13,11 @@ To free developers from writing tests
 
 ## Get Started
 
-Run project in watch mode:
+Run the program
 
 ```
-cargo watch -x 'run -- ../samples/ProfileMenu.tsx'
+cd cli
+cargo run -- src/main.rs
 ```
 
 ## Roadmap
