@@ -15,6 +15,10 @@ To free developers from writing tests
 
 Run project in watch mode:
 
-- cargo run
+- cargo watch
 
 When the program or test samples are changed, new test file outputs will be generated
+
+### Set different test subject
+
+- cargo watch -- samples/MyTestFile.tests.tsx
