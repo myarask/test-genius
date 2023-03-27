@@ -1,3 +1,2 @@
 ignore = ["samples/**.test.tsx", "target"]
 command = "run"
-args = ["--", "samples/ProfileMenu.test.tsx"]
