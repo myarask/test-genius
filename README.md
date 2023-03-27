@@ -23,9 +23,8 @@ cargo watch -x 'run -- ../samples/ProfileMenu.tsx'
 
 ### Demo
 
-[] Setup sample (createSubscription)
-[] Support for Typescript
-[] Support for functions
+[] Publish basic cli to npm
+[] Setup sample
 [] Support default and named imports
 [] Test suite descriptions
 [] Support dependency mocking
