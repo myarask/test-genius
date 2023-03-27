@@ -1,7 +1,7 @@
-const { execFile } = require('child_process');
+const { execFile } = require("child_process");
 
 const runRustCli = (args, callback) => {
-  const rustCliPath = 'path-to-your-binary';
+  const rustCliPath = "./test-genius";
   execFile(rustCliPath, args, callback);
 };
 

@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A test generator for JS/TS application code",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "bin": {
     "tgen": "index.js"
   },
